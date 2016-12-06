@@ -1,0 +1,324 @@
+<html>
+<head>
+	      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/9.2.4/css/intlTelInput.css' media="screen" title="curofy css" charset="utf-8">
+<!-- Latest compiled and minified JavaScript -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://curofy-static.s3.amazonaws.com/recruiter/js/intlTelInput.js?v1.2.8"></script>
+
+	</head>
+	<body>
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+       
+          <div class="row">
+
+            <div class="col-xs-12 col-md-4 login-left-bar">
+             <div class="login-left-bar">
+             	<div class="row">
+                <div class="col-xs-2 col-md-12">
+                  <div class="login-image-div">
+                    <img src="https://s13.postimg.org/etis9n1tj/login_graphics.png" class="login-image">
+                  </div>
+                </div>
+                <div class="col-xs-10 col-md-12">
+                  <div class="login-info-text">
+                    <h4 class="login-header">Login Required</h4>
+                    <p class="sub-text">You need to login to perform any action</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              <div class="login-details">
+                
+                  <div class="logo-div">
+                    <img src="https://s16.postimg.org/5hwertudx/group_9.png" class="logo">
+                  </div>
+               <div class="get-link-div" id="get-link">
+	                <div class="get-link-text-header">
+	                  <p class="get-link">Get the link to download app via SMS</p>
+	                </div>
+	                
+	                 
+	                  <div class="phone-no">
+	                     <input type="tel" placeholder="Mobile Number *" id="phone" required>
+	                  </div>
+	                  
+	                  <div class="get-link-btn">
+	                    <button type="button" class="link-button">GET LINK</button>
+	                  </div>
+	                  
+	                    <div class="footer-links">
+	                      <p class="or-text">OR</p>
+	                      <p class="download-text">Download Via</p>
+	                      <div class="store-links-footer">
+	                        <div class="play-store">
+	                          <a href=""><img src="https://s11.postimg.org/vute9sen7/android.png" class="android"></a>
+	                        </div>
+	                        <div class="app-store">
+	                          <a href=""><img src="https://s16.postimg.org/y7frbrnp1/apple.png" class="ios"></a>
+	                        </div>
+	                      </div>
+	                    </div>
+                  </div>
+                  <div class="thanks-msg-display">
+                  	<div class="thanks-msg-image">
+                  		<img src="https://s3.postimg.org/hoh72rpj7/group.png">
+                  	</div>
+                  	<div class="thank-you-header">
+                  		<p class="thank-you-text">Thank You</p>
+                  	</div>
+                  	<div clas="thank-you-msg">
+                  		<p class="thanks-msg-text">You will receive a SMS with the download link on your Mobile No. Click on the download link and install.</p>
+                  	</div>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+          <div>
+        </div>
+      </div>
+      </div>
+      
+    
+
+  </div>
+</div>
+<script type="text/javascript">
+	$("#phone").intlTelInput();
+
+function callmodal() {
+    $('#myModal').modal();
+}
+</script>
+<style type="text/css">
+	.row{
+		display: flex;
+	}
+	.login-left-bar{
+		background-color:#eceff1;
+	}
+	.login-left-bar .row{
+		display: block;
+	}
+	.modal-body{
+		border-radius: 10px;
+		padding: 0;
+	}
+	.login-image{
+		width: 150;
+		height: 150;
+		margin-top: 50px;
+	}
+	.login-image-div{
+		margin: auto;
+		text-align: center;
+	}
+	.login-header{
+		font-family: .SFNSDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #383838;
+	}
+	.sub-text{
+		font-family: .SFNSDisplay;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  text-align: center;
+  color: #383838;
+	}
+	.login-info-text{
+		margin: auto;
+	}
+	
+	.logo{
+		text-align: center;
+	}
+	.logo-div{
+		text-align: center;
+	}
+	.get-link{
+		font-family: Open Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #263238;
+  margin-top: -15px;
+	}
+	.phone-no{
+		text-align: center;
+		margin: auto;
+	}
+	.phone-no input{
+		border: 1px solid #eceff1;
+		height: 40px;
+		padding-left: 120px !important;
+	}
+	.intl-tel-input.separate-dial-code .selected-dial-code{
+		padding-right: 20px;
+	}
+	 .get-link-btn{
+    margin-top: 10px;
+    text-align: center;
+   
+  }
+
+  .link-button{
+    font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  width: 303px;
+  height: 44px;
+  border-radius: 2.6px;
+  background-color: #00c4aa;
+  border: none;
+  } 
+	.or-text{
+		font-family: Open Sans;
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #000000;
+	  text-align: center;
+
+	  margin-top: 20px;
+	  
+	}
+	.download-text{
+		font-family: Open Sans;
+	  font-size: 14px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  color: #000000;
+	  margin-bottom: 0;
+	  text-align: center;
+	}
+
+	.store-links-footer{
+		display: flex;
+		margin-top: -16px;
+	}
+	.android{
+		width: 132.6px;
+ 
+	}
+	.ios{
+		width: 132.6px;
+ 
+	}
+	.play-store{
+		margin: auto;
+		margin-right: 0;
+	}
+	.app-store{
+		margin: auto;
+		margin-left: -40px;
+	}
+	.thank-you-text{
+		font-family: Open Sans;
+		  font-size: 18px;
+		  font-weight: 600;
+		  font-style: normal;
+		  font-stretch: normal;
+		  text-align: center;
+		  color: #009b86;
+		  margin-top: -15px;
+	}
+	
+	.thanks-msg-text{
+			font-family: Open Sans;
+		  font-size: 14px;
+		  font-weight: normal;
+		  font-style: normal;
+		  font-stretch: normal;
+		  text-align: center;
+		  color: #263238;
+		  padding: 30px;
+		padding-bottom: 50px;
+	}
+	.thanks-msg-display{
+		display: none;
+	}
+	.thanks-msg-image{
+		text-align: center;
+	}
+	.thanks-msg-image img{
+		margin-top: -40px;
+	}
+
+
+	@media only screen 
+	and (max-device-width : 768px) {
+		.login-image{
+		width: 64px;
+		height: 64px;
+		margin-top: 0;
+	}
+	.row{
+		display: block;
+	}
+	.login-header{
+		font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: #383838;
+  text-align: left;
+  margin-bottom: 5px;
+	}
+	.sub-text{
+		font-family: OpenSans;
+  font-size: 11px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.13;
+  color: #383838;
+  text-align: left;
+	}
+	.modal-body .row{
+		margin: 0;
+	}
+	.login-image{
+		margin-left: -22px;
+	}
+}
+
+
+</style>
+	</body>
+	</html>

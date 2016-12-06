@@ -1,0 +1,189 @@
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+ <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/9.2.4/css/intlTelInput.css' media="screen" title="curofy css" charset="utf-8">
+<!-- Latest compiled and minified JavaScript -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://curofy-static.s3.amazonaws.com/recruiter/js/intlTelInput.js?v1.2.8"></script>
+
+  </head>
+  <body>
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+       
+          <div class="row">
+
+            <div class="col-xs-12 col-md-4">
+             <div class="login-left-bar">
+              <div class="row">
+                <div class="col-xs-4 col-md-12">
+                  <div class="login-image-div">
+                    <img src="https://s13.postimg.org/etis9n1tj/login_graphics.png" class="login-image">
+                  </div>
+                </div>
+                <div class="col-xs-8 col-md-12">
+                  <div class="login-info-text">
+                    <h4 class="login-header">Login Required</h4>
+                    <p class="sub-text">You need to login to perform any action</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+            </div>
+            <div class="col-xs-12 col-sm-8">
+              <div class="login-details">
+                
+                  <div class="logo-div">
+                    <img src="https://s16.postimg.org/5hwertudx/group_9.png" class="logo">
+                  </div>
+               
+                <div class="get-link-text-div">
+                  <p class="get-link">Get the link to download app via SMS</p>
+                </div>
+                <div class="phone-no-details">
+                  <div class="country-code">
+                    <input type="tel" id="phone-code">
+                  </div>
+                  <div class="phone-no">
+                    <input type="tel" id="phone-no">
+                  </div>
+                  </div>
+                  <div class="get-link-btn">
+                    <button type="button" class="btn btn-primary">GET LINK</button>
+                  </div>
+                  
+                    <div class="footer-links">
+                      <p class="or-text">OR</p>
+                      <p class="download-text">Download Via</p>
+                      <div class="store-links-footer">
+                        <div class="play-store">
+                          <a href=""><img src="https://s11.postimg.org/vute9sen7/android.png"></a>
+                        </div>
+                        <div class="app-store">
+                          <a href=""><img src="https://s16.postimg.org/y7frbrnp1/apple.png"></a>
+                        </div>
+                      </div>
+                    </div>
+                  
+                
+              </div>
+            </div>
+          </div>
+          <div>
+        </div>
+      </div>
+      </div>
+      
+    
+
+  </div>
+</div>
+<style type="text/css">
+  .col-xs-12 .login-left-bar{
+    background-color:#eceff1;
+  }
+  .modal-body{
+    border-radius: 10px;
+    padding: 0;
+  }
+  .login-image{
+    width: 150;
+    height: 150;
+    margin-top: 50px;
+  }
+  .login-image-div{
+    margin: auto;
+  }
+  .login-header{
+    font-family: .SFNSDisplay;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #383838;
+  }
+  .sub-text{
+    font-family: .SFNSDisplay;
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.26;
+  text-align: center;
+  color: #383838;
+  }
+  .login-info-text{
+    margin: auto;
+  }
+  .modal-content{
+    width: 680px;
+    height: 446px;
+  }
+  .logo{
+    text-align: center;
+  }
+  .logo-div{
+    text-align: center;
+  }
+  .get-link{
+    font-family: Open Sans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #263238;
+  }
+  .phone-no-details{
+    display: flex;
+  }
+  .get-link-btn{
+    margin-top: 20px;
+    text-align: center;
+   
+  }
+
+  .btn .btn-primary{
+    font-family: OpenSans;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  color: #ffffff;
+  width: 303px;
+  height: 44px;
+  border-radius: 2.6px;
+  background-color: #00c4aa;
+  } 
+  .or-text{
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    color: #000000;
+    text-align: center;
+    
+  }
+
+</style>
+  </body>
+  </html>
