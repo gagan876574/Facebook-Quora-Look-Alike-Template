@@ -176,7 +176,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="comment-section">
+                        <div class="comment-section-web">
                            <div class="row">
                               <div class="col-xs-12 col-sm-12">
                                  <div class="comment-now">
@@ -186,7 +186,41 @@
                                        </div>
                                     </div>
                                     <div class="post-comment">
-                                       <div class="col-xs-11 col-sm-11">
+                                       <div class="col-xs-9 col-sm-9">
+                                          <input type="text" name="comment" placeholder="Leave a comment">
+                                       </div>
+                                    </div>
+                                    <div class="pic-upload">
+                                       <div class="col-xs- col-sm-1">
+                                          <img src="https://s18.postimg.org/tsp33knft/camera.png">
+                                       </div>
+                                    </div>
+                                    <div class="tag-user">
+                                       <div class="col-xs- col-sm-1">
+                                          <img src="https://s15.postimg.org/v3inhj9sr/tag.png">
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="comment-section-mob">
+                           <div class="row">
+                              <div class="col-xs-12 col-sm-12">
+                                 <div class="comment-now">
+                                    
+                                    <div class="pic-upload">
+                                       <div class="col-xs-1 col-sm-1">
+                                          <img src="https://s17.postimg.org/bd30ad40v/camera_1.png">
+                                       </div>
+                                    </div>
+                                    <div class="tag-user">
+                                       <div class="col-xs-1 col-sm-1">
+                                          <img src="https://s16.postimg.org/agvga022d/tag_1.png">
+                                       </div>
+                                    </div>
+                                    <div class="post-comment">
+                                       <div class="col-xs-10 col-sm-10">
                                           <input type="text" name="comment" placeholder="Leave a comment">
                                        </div>
                                     </div>
@@ -1086,8 +1120,11 @@
             margin-right: -51px;
          }
          input{
-         border-radius: 4px;
          background-color: #eceff1;
+         border-top-left-radius: 2em;
+         border-bottom-left-radius: 2em;
+         border-top-right-radius: 2em;
+         border-bottom-right-radius: 2em;
          font-family: Avenir;
          font-size: 14px;
          font-weight: 500;
@@ -1106,9 +1143,12 @@
          .user-options{
          border-bottom: 1px solid #eceff1;
          }
-         .comment-section{
+         .comment-section-web{
          margin-top: 10px;
          margin-bottom: 10px;
+         }
+         .comment-section-mob{
+            display: none;
          }
          .follow-user{
             margin-top: 20px;
@@ -1653,22 +1693,37 @@
          .other-case-recommendation{
          margin-bottom: 50;
          }
-         .comment-section{
+         .comment-section-web{
+            display: none;
+         }
+         .comment-section-mob{
            position: fixed;
           bottom: 0;
           width: 100%;
-          background-color: #ffffff;
+          background-color: #f8f8f8;
           margin: 0;
           box-shadow: 0 -1px 2px 0 rgba(0, 0, 0, 0.2);
           z-index: 700;
           margin-left: -13px;
+          display: block;
          }
          .follow-user{
             margin-top: 0;
          }
+         .comment-section-mob img{
+            margin-left: 15px;
+            margin-bottom: 10px;
+         }
+         .tag-user img{
+            padding-left: 10px;
+         }
          input{
             background-color: #ffffff;
             margin-left: 20px;
+            border-radius: 0;
+            border: solid 1px #b0bec5;
+            width: 80%;
+            margin-top: 0;
          }
          .carousel-control.right{
             background-image: none;
